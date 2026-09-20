@@ -1,0 +1,14 @@
+# 本机 Codex 与 MATLAB MCP 工具及其运行产物
+.agents/
+.codex/
+.matlab-tools/
+*.log
+
+# 本机 MCP 连接辅助脚本（依赖未纳入仓库的工具目录）
+setup_RE1_matlab.m
+connect_RE1_matlab.m
+
+# MATLAB 临时文件与自动保存文件
+*.asv
+*.autosave
+*.slxc
